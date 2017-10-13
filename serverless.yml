@@ -8,7 +8,7 @@ provider:
   stage: demo
   region: eu-central-1
   memorySize: 128
-  timeout: 10
+  timeout: 2
   deploymentBucket: dasniko.serverless.deployments.${self:provider.region}
   iamRoleStatements:
       - Effect: Allow
